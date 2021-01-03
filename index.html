@@ -5,23 +5,94 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello reen. | Web Design &amp; Development </title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mutual_styles.css">
+    <link rel="stylesheet" href="styles/hjem.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="landingpagecontainer">
+        <div class="landingpagesprite"><img src="SVG/landingpageny.svg" alt="landingpage | design"></div>
+    </div>
     <header>
-        <a class="navlogo" href="index.html">LOGO</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="om_mig.html">Om mig</a>
-        <a href="kontakt.html">Kontakt</a>
+        <div class="flex">
+            <div class="logo">
+                <a class="logocontainer" href="index.html"><img src="SVG/logo.svg" alt="reendesign | logo"></a>
+                <p class="site-tag">Multimediedesigner</p>
+            </div>
+            <nav class="site-nav">
+                <a href="portfolio.html">Portfolio</a>
+                <div class="separator"></div>
+                <a href="om_mig.html">Om mig</a>
+                <div class="separator"></div>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+        </div>
     </header>
     <div class="main">
-        <h1>Web Designer &amp; Developer</h1>
-        <h2>Mit navn er Anders Reenberg, og jeg er studerende på multimediedesigner uddannelsen på KEA.</h2>
-        <script src="javascript.js"></script>
+        <section class="hjem">
+            <h1 class="landingpageh1">Web Designer &amp; Developer</h1>
+            <h2 class="landingpageh2">Mit navn er Anders Reenberg, og jeg studerer til multimediedesigner uddannelsen på KEA.</h2>
+            <div class="landingpageknap">
+                <a class="selveknap" href="om_mig.html">
+                    <div class="landingpageknaptekst">Mere om mig</div>
+                </a>
+            </div>
+        </section>
+        <section class="mineprojekter">
+            <div class="separatorsection"></div>
+            <div class="sectiontekstprojekter">Mine projekter</div>
+            <div class="flex-row">
+                <div class="flex-50">
+                    <a class="thumbnail-tema2" href="tema2.html">Billede
+                        <div class="projektinfo">
+                            <p class="projektnavn">Responsive Site</p>
+                            <p class="projektdeskription">Tema 2 - Grundlæggende HTML<br>Opgave: 02.04.02 responsive_site_v2</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex-50right">
+                    <a class="thumbnail-tema3" href="tema3.html">Billede
+                        <div class=projektinfo>
+                            <p class="projektnavn">Idé</p>
+                            <p class="projektdeskription">Tema 3 - Grundlæggende UX<br>Opgave: 03.01.05 idé</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-50">
+                    <a class="thumbnail-tema4" href="tema4.html">Billede
+                        <div class="projektinfo">
+                            <p class="projektnavn">Assetliste og designdokumentation</p>
+                            <p class="projektdeskription">Tema 4 - Animation<br>Opgave: 04.01.05 assetliste og designdokumentation</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex-50right">
+                    <a class="thumbnail-tema5" href="tema5.html">Billede
+                        <div class=projektinfo>
+                            <p class="projektnavn">Pilotprojekt</p>
+                            <p class="projektdeskription">Tema 5 - Grundlæggende indhold<br>Opgave: 05.01.01 pilotprojekt</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flereprojekterknap">
+                <a class="selveknapprojekter" href="portfolio.html">
+                    <div class="landingpageknaptekst">Flere projekter</div>
+                </a>
+            </div>
+            <div class="separatorsection"></div>
+        </section>
+        <section class="færdigheder">
+            <div class="sectiontekstprojekter">Fokus på dine behov</div>
+
+        </section>
     </div>
+    <script src="javascript.js"></script>
+
 </body>
 
 </html>
