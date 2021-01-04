@@ -1,0 +1,104 @@
+.site-nav a {
+    max-width: 100%;
+    color: #fff;
+    display: inline-block;
+}
+
+.site-tag {
+    font-size: 25px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 50px;
+    color: #fff;
+}
+
+.separatorsection {
+    width: 100%;
+    height: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #000;
+}
+
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.separator {
+    width: 70px;
+    height: 1px;
+    margin-right: 22px;
+    margin-left: 22px;
+    background-color: #fff;
+    position: center;
+}
+
+.om_migh1 {
+    font-size: 90px;
+    font-weight: 300;
+    color: #fff;
+    width: 100%;
+    line-height: 90px;
+}
+
+.om_migh2 {
+
+    font-size: 35px;
+    font-weight: 300;
+    color: #000000;
+    width: 37rem;
+    line-height: 47px;
+    margin-top: -15px;
+}
+
+.main {
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.om_mig {}
+
+.col_txt_side_billede {
+    margin-left: 30px;
+}
+
+.sectionwrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.portraetbillede {
+    width: 100%;
+}
+
+#page-container {
+    position: relative;
+    height: 3750px;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+    /* Footer height */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    /* Footer height */
+}
+
+
+footer p {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 20px;
+}

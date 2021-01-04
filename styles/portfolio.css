@@ -198,3 +198,28 @@
     background-color: #ffcece;
     max-width: 100%;
 }
+
+#page-container {
+    position: relative;
+    height: 3750px;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+    /* Footer height */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    /* Footer height */
+}
+
+
+footer p {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 20px;
+}
