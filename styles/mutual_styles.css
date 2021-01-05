@@ -16,6 +16,12 @@ body {
     color: #9A00FF;
 }
 
+.hidden {
+    display: none;
+    transform: translateX(150%);
+
+}
+
 header {
     z-index: 200;
     overflow: visible;
@@ -124,4 +130,94 @@ a {
     margin-left: 22px;
     background-color: #000;
     position: center;
+}
+
+
+.burgermenu {
+    display: none;
+}
+
+
+
+/*iPad---------------------------------*/
+
+@media (max-width: 800px) {
+
+
+
+    .site-nav {
+        display: none;
+    }
+
+    .sectionwrapper_bm {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .burgermenu {
+        display: block;
+        float: right;
+        font-size: 3rem;
+        padding: 0;
+        text-align: right;
+    }
+
+    #burgerknap {
+        margin-right: 0;
+        display: inline-block;
+        cursor: pointer;
+
+    }
+
+    .burgerknap {
+        margin-right: 2rem;
+
+
+    }
+
+    .burgermenulink {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    #burgersection {
+        position: relative;
+        transition: transform 0.3s;
+        transform-style: top left;
+        background: #000;
+        margin-top: 1.5rem;
+        height: 480px;
+        line-height: 100px;
+        z-index: 2;
+    }
+
+
+
+    #burgersection li {
+        margin-top: -0.75rem;
+        margin-right: 2rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #burgersection li a {
+        margin-top: -0.75rem;
+        margin-right: 2rem;
+        text-align: center;
+        padding: 0px;
+        color: #fff;
+    }
+
+
+}
+
+/*Mobile---------------------------------*/
+
+@media (max-width: 420px) {
+    .flex .logo .site-tag {
+        display: none;
+    }
+
+
+
 }

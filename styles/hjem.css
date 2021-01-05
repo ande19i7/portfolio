@@ -105,7 +105,27 @@
     color: #000;
 }
 
+.flex-row_pc {
+    display: flex;
+    width: 100%;
+    margin-bottom: 18px;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    color: #000;
+}
+
 .flex-50 {
+    padding-right: 10px;
+    padding-bottom: 0;
+    width: 50%;
+    min-height: 50px;
+    padding-left: 0;
+}
+
+.flex-50_last {
     padding-right: 10px;
     padding-bottom: 0;
     width: 50%;
@@ -221,11 +241,11 @@
 }
 
 
-.færdigheder {
+.faerdigheder {
     width: 100%;
 }
 
-.færdighedertekst {
+.faerdighedertekst {
     margin-top: 45px;
     font-size: 35px;
     font-weight: 300;
@@ -234,7 +254,7 @@
     line-height: 47px;
 }
 
-.færdighederh2 {
+.faerdighederh2 {
     margin-top: 10px;
     font-size: 80px;
     font-weight: 300;
@@ -244,6 +264,14 @@
 }
 
 .flex-33 {
+    width: 28%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+
+
+}
+
+.flex-33_frd {
     width: 28%;
     margin-bottom: 50px;
     margin-top: 10px;
@@ -335,4 +363,177 @@ footer p {
     color: #fff;
     margin-left: 10px;
     font-size: 20px;
+}
+
+.ipadteksthjem {
+    display: none;
+}
+
+.hjemprojektermobile {
+    display: none;
+}
+
+/*laptop -----------------------------------------------------*/
+@media (max-width: 1550px) {
+
+    .main {
+        margin-top: 55px;
+    }
+
+    .mineprojekter {
+        margin-top: 100px;
+    }
+
+    .landingpageknap {
+        margin-top: 87px;
+    }
+
+    .flereprojekterknap {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .flex-33_frd {
+        width: 35%;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    }
+
+    #page-container {
+        position: relative;
+        height: 3350px;
+    }
+}
+
+/*iPad -----------------------------------------------------*/
+@media (max-width: 800px) {
+
+    .ipadteksthjem {
+        display: block;
+    }
+
+    .faerdighederh2 {
+        margin-bottom: 15px;
+    }
+
+    .ipadteksthjem h3 {
+        font-size: 35px;
+        margin-bottom: 10px;
+
+    }
+
+    .ipadteksthjem .list {
+        font-size: 22px;
+
+    }
+
+    .kontaktmigknap {
+        margin-top: 65px;
+    }
+
+    .landingpagecontainer {
+        top: 46vw;
+    }
+
+    .landingpageh2 {
+        margin-top: -28px;
+    }
+
+    .landingpageknap {
+        margin-bottom: 125px;
+    }
+
+    .faerdighedertekst {
+        width: 35rem;
+    }
+
+    .flex-50_last {
+        display: none;
+    }
+
+    .thumbnail-tema3 {
+        padding-bottom: 43px;
+    }
+
+    .thumbnail-tema5 {
+        padding-bottom: 51px;
+    }
+
+    #page-container {
+        position: relative;
+        height: 3900px;
+    }
+
+
+}
+
+/*mobile----------------------------------------*/
+@media (max-width: 420px) {
+
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .landingpageh1 {
+        font-size: 50px;
+        line-height: 57px;
+        width: 345px;
+
+    }
+
+    .landingpageh2 {
+        font-size: 27px;
+        line-height: 39px;
+        width: 345px;
+
+    }
+
+    .landingpagecontainer {
+        top: 118vw;
+    }
+
+    .landingpagesprite {
+        min-width: 372px;
+    }
+
+    .landingpageknap {
+        margin-bottom: 184px;
+        margin-top: 31px;
+    }
+
+    .selveknap {
+        padding-left: 11px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        width: 179px;
+    }
+
+    .flex-row_pc {
+        display: none;
+    }
+
+    .faerdighedertekst {
+        width: 345px;
+    }
+
+    .faerdighederh2 {
+        width: 345px;
+        font-size: 68px;
+    }
+
+    .hjemprojektermobile {
+        margin-top: 10px;
+        display: block;
+    }
+
+    #page-container {
+        position: relative;
+        height: 5050px;
+    }
 }

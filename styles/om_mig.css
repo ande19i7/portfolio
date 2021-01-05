@@ -184,3 +184,6 @@ footer p {
     margin-left: 10px;
     font-size: 20px;
 }
+
+/*iPad -----------------------------------------------------*/
+@media (max-width: 800px) {}

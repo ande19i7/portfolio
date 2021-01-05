@@ -288,8 +288,7 @@ textarea {
 }
 
 .w-button {
-    padding: 9px 0px;
-    border: 0;
+    padding: 9px 0px;border: 0;
     line-height: inherit;
     cursor: pointer;
     border-radius: 0;
@@ -299,49 +298,3 @@ textarea {
     color: #9A00FF;
 }
 
-/*
-.form_section {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    align-items: start;
-    padding: 1.5rem;
-    background: #3a243f;
-    color: #fff;
-    border-radius: 8px;
-
-}
-
-input {
-    display: block;
-    font-size: 1.1rem;
-    padding: .5rem;
-    border-radius: 4px;
-}
-
-label {
-    display: grid;
-    justify-items: start;
-}
-
-article {
-    padding-right: 2rem;
-}
-
-.form_felt {
-    margin-bottom: 1rem;
-}
-
-button {
-    background-color: #6D7266;
-    color: white;
-    padding: .75rem 1rem;
-    font-family: 'PT Mono', monospace;
-    font-style: normal;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #A0A0A0;
-}
-*/
