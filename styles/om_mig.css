@@ -113,12 +113,12 @@ body {
 .sectionwrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 .sectionwrapper_3punkt {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin
 }
 
 .sectionwrapper_inside {
