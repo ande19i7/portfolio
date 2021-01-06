@@ -84,6 +84,17 @@ body {
 
 }
 
+.om_migh3_profil {
+
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 70px;
+    margin-bottom: 20px;
+
+
+}
+
 .col_liste {
     font-size: 30px;
     margin-right: 10px;
@@ -116,7 +127,14 @@ body {
 
 }
 
-.sectionwrapper_3punkt {
+
+.sectionwrapper_pc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.sectionwrapper_3punkt_pc {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -162,7 +180,7 @@ body {
 
 #page-container {
     position: relative;
-    height: 3750px;
+    height: 2000px;
 }
 
 #content-wrap {
@@ -185,5 +203,354 @@ footer p {
     font-size: 20px;
 }
 
+.sectionwrapper_3punkt_ipad {
+    display: none;
+}
+
+.om_migh3_ipad {
+    display: none;
+}
+
+.sectionwrapper_inside2_ipad {
+    display: none;
+}
+
+.col_ipad {
+    display: none;
+}
+
+.mobileversion_1 {
+    display: none;
+}
+
+.mobileversion_2 {
+    display: none;
+}
+
+.om_migh1_mobile {
+    display: none;
+}
+
+.om_migh2_mobile {
+    display: none;
+}
+
+.mobile_picture {
+    display: none;
+}
+
+
+/*laptop -----------------------------------------------------*/
+@media (max-width: 1550px) {
+    #page-container {
+        position: relative;
+        height: 1850px;
+    }
+
+    .om_migh1 {
+        font-size: 80px;
+        margin-top: 250px;
+        margin-left: 44px;
+        margin-bottom: 54px;
+    }
+
+    .om_migh2 {
+        font-size: 30px;
+        line-height: 57px;
+        line-height: 57px;
+        margin-left: 44px;
+    }
+
+    .om_migh3 {
+        font-size: 30px;
+
+    }
+
+    .col li {
+        font-size: 23px;
+    }
+
+    .col_cv li {
+        padding: 5px;
+    }
+
+
+}
+
+
 /*iPad -----------------------------------------------------*/
-@media (max-width: 800px) {}
+@media (max-width: 800px) {
+
+    .col_ipad {
+        display: block;
+    }
+
+
+    .sectionwrapper_pc {
+        display: none;
+    }
+
+
+    #burgersection li a {
+
+        color: #000;
+    }
+
+
+    #burgersection {
+
+        background: #fff;
+
+    }
+
+
+    .sectionwrapper_3punkt_pc {
+        display: none;
+    }
+
+
+
+    .sectionwrapper_3punkt_ipad {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #page-container {
+        position: relative;
+        height: 2000px;
+    }
+
+    .om_migh1 {
+        font-size: 56px;
+        margin-top: 30px;
+        margin-left: 18px;
+        line-height: 65px;
+    }
+
+    .om_migh2 {
+        font-size: 20px;
+        margin-left: 18px;
+        line-height: 44px;
+        width: 307px;
+    }
+
+    .om_migh3 {
+        font-size: 27px;
+        margin-left: 0px;
+        line-height: 44px;
+        width: 307px;
+        margin-bottom: 1px;
+    }
+
+    .om_migh3_ipad {
+        display: block;
+        font-size: 27px;
+        margin-left: 0px;
+        line-height: 44px;
+        width: 307px;
+        margin-bottom: 1px;
+    }
+
+    .sectionwrapper_inside2_ipad {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .om_migh3_profil {
+        font-size: 27px;
+        margin-left: 0px;
+        line-height: 44px;
+        width: 307px;
+        margin-top: 45px;
+    }
+
+    .col_liste_profil {
+        font-size: 20px;
+        line-height: 65px;
+    }
+
+
+    .sectionwrapper_3punkt_ipad .col li {
+        font-size: 20px;
+        line-height: 65px;
+        margin-left: 18px;
+    }
+
+    .sectionwrapper_3punkt_ipad .col_liste {
+
+        margin-left: 0px;
+    }
+
+    .sectionwrapper_3punkt_ipad .col_liste_sprog {
+
+        margin-left: 0px;
+    }
+
+    .col_ipad .col_liste_profil {
+
+        margin-left: 18px;
+    }
+
+    .col_ipad .om_migh3_profil {
+
+        margin-bottom: 0px;
+    }
+
+
+    .sectionwrapper_3punkt_ipad .col_ipad .col_liste_sprog li {
+        font-size: 20px;
+        line-height: 65px;
+    }
+
+    .sectionwrapper_3punkt_ipad .col_cv li {
+        font-size: 20px;
+    }
+
+    .sectionwrapper_3punkt_ipad .col_cv {
+        padding: 5px;
+        margin-left: -7px;
+    }
+
+    .sectionwrapper_inside2_ipad .col_cv {
+        font-size: 20px;
+    }
+
+    .sectionwrapper_inside2_ipad .col_cv li {
+        font-size: 20px;
+        padding: 0px;
+    }
+
+    .mobileversion_1 {
+        display: none;
+    }
+
+    .mobileversion_2 {
+        display: none;
+    }
+
+    .om_migh1_mobile {
+        display: none;
+    }
+
+    .om_migh2_mobile {
+        display: none;
+    }
+
+    .mobile_picture {
+        display: none;
+    }
+
+}
+
+/*mobile----------------------------------------*/
+@media (max-width: 420px) {
+
+    .mobileversion_1 {
+        display: block;
+    }
+
+    .mobileversion_2 {
+        display: block;
+    }
+
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+    .sectionwrapper_3punkt_ipad {
+        display: none;
+    }
+
+    .col_ipad {
+        display: none;
+    }
+
+    .om_migh3_ipad {
+        display: none;
+    }
+
+    .sectionwrapper_inside2_ipad {
+        display: none;
+    }
+
+    .sectionwrapper {
+        display: none;
+    }
+
+
+    .mobile_picture {
+        display: block;
+        width: 100%;
+    }
+
+    .om_migh1_mobile {
+        display: block;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        font-size: 43px;
+        width: 345px;
+        line-height: 49px;
+        margin-top: 30px;
+    }
+
+
+    .om_migh2_mobile {
+        display: block;
+        margin-left: 0px;
+        width: 345px;
+        line-height: 35px;
+        font-size: 18px;
+
+    }
+
+    .om_migh3 {
+        margin-left: 0px;
+        width: 345px;
+        line-height: 35px;
+        font-size: 26px;
+        margin-bottom: 12px;
+
+    }
+
+    .om_migh3_cv {
+        margin-left: 0px;
+        width: 345px;
+        line-height: 35px;
+        font-size: 26px;
+
+    }
+
+    .col_liste {
+        font-size: 20px;
+        margin-left: 23px;
+        line-height: 56px;
+    }
+
+    .col_liste_2 {
+
+        font-size: 20px;
+        margin-right: 10px;
+        line-height: 30px;
+        margin-left: 1px;
+        list-style-type: none;
+    }
+
+    .col_liste_2 li {
+        margin-bottom: 40px;
+    }
+
+    #page-container {
+        position: relative;
+        height: 2700px;
+    }
+
+
+}

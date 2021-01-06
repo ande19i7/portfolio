@@ -16,6 +16,10 @@ body {
     color: #9A00FF;
 }
 
+#burgersection .sectionwrapper_bm .col_bm #navactive {
+    color: #9A00FF;
+}
+
 .hidden {
     display: none;
     transform: translateX(150%);

@@ -49,7 +49,7 @@
     margin-bottom: 25px;
 }
 
-.flex-row {
+.flex-row_portfolio {
     display: flex;
     width: 100%;
     margin-bottom: 18px;
@@ -222,4 +222,99 @@ footer p {
     color: #fff;
     margin-left: 10px;
     font-size: 20px;
+}
+
+.portfolioprojektermobile {
+    display: none;
+}
+
+/*laptop -----------------------------------------------------*/
+@media (max-width: 1550px) {
+    #page-container {
+        position: relative;
+        height: 3400px;
+    }
+}
+
+
+/*iPad---------------------------------*/
+
+@media (max-width: 800px) {
+
+
+
+    .site-nav {
+        display: none;
+    }
+
+
+    .thumbnail-tema3 {
+        padding-bottom: 44px;
+    }
+
+    .thumbnail-tema3_3 {
+        padding-bottom: 44px;
+    }
+
+    .thumbnail-tema4_2 {
+        padding-bottom: 111px;
+    }
+
+    .thumbnail-tema5 {
+        padding-bottom: 51px;
+    }
+
+    #page-container {
+        position: relative;
+        height: 2900px;
+    }
+
+
+}
+
+
+/*mobile----------------------------------------*/
+@media (max-width: 420px) {
+
+    .flex-row_portfolio {
+        display: none;
+    }
+
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .portfolio-main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .portfolioh1 {
+        font-size: 54px;
+        width: 345px;
+    }
+
+    .portfolioh2 {
+        font-size: 28px;
+        width: 345px;
+    }
+
+
+
+
+
+
+
+
+
+    .portfolioprojektermobile {
+        margin-top: 10px;
+        display: block;
+    }
+
+    #page-container {
+        position: relative;
+        height: 5150px;
+    }
 }
