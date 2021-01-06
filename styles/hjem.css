@@ -405,8 +405,95 @@ footer p {
     }
 }
 
+
+/*iPad - landscape */
+@media (max-width: 1050px) {
+    .landingpagecontainer {
+        top: 9vw;
+        left: -0.9vw;
+    }
+
+
+    .main {
+        margin-top: 29px;
+    }
+
+
+    .landingpageh1 {
+        font-size: 85px;
+        width: 966px;
+        line-height: 84px;
+        margin-bottom: 30px;
+    }
+
+
+    .landingpageh2 {
+        font-size: 31px;
+        width: 381px;
+    }
+
+
+    .landingpageknap {
+        margin-top: 45px;
+        margin-bottom: 0px;
+    }
+
+
+    .mineprojekter {
+        margin-top: 60px;
+    }
+
+
+    .thumb-img {
+        width: 100%;
+    }
+
+
+
+    .thumbnail-tema5 {
+        padding-bottom: 81px;
+    }
+
+    .faerdighederh2 {
+        width: 962px;
+        font-size: 66px;
+        margin-bottom: 5px;
+    }
+
+
+    .flex-50_last {
+        width: 100%;
+    }
+
+
+    .kontaktmigknap {
+        margin-top: 85px;
+    }
+
+
+    #page-container {
+        position: relative;
+        height: 3250px;
+    }
+}
+
 /*iPad -----------------------------------------------------*/
 @media (max-width: 800px) {
+
+    .mineprojekter {
+        margin-top: 100px;
+    }
+
+    .landingpageh1 {
+        font-size: 90px;
+        width: 40rem;
+        line-height: 90px;
+        margin-bottom: 75px;
+    }
+
+    .main {
+        margin-top: 55px;
+    }
 
     .ipadteksthjem {
         display: block;
@@ -414,6 +501,8 @@ footer p {
 
     .faerdighederh2 {
         margin-bottom: 15px;
+        width: 37rem;
+        font-size: 80px;
     }
 
     .ipadteksthjem h3 {
@@ -433,13 +522,17 @@ footer p {
 
     .landingpagecontainer {
         top: 46vw;
+        left: -1.1vw;
     }
 
     .landingpageh2 {
         margin-top: -28px;
+        font-size: 35px;
+        width: 37rem;
     }
 
     .landingpageknap {
+        margin-top: 87px;
         margin-bottom: 125px;
     }
 
@@ -461,14 +554,66 @@ footer p {
 
     #page-container {
         position: relative;
-        height: 3900px;
+        height: 3930px;
     }
 
 
 }
 
+
+/*mobile landscape----------------------------------------*/
+@media (max-width: 700px) {
+    .landingpageh1 {
+        width: 605px;
+        font-size: 55px;
+        line-height: 65px;
+        margin-bottom: 63px;
+    }
+
+
+    .main {
+        margin-top: 25px;
+    }
+
+
+    .landingpagecontainer {
+        top: 43vw;
+    }
+
+    .projektinfo {
+        margin-top: 37px;
+    }
+
+
+    .projektnavn {
+        font-size: 27px;
+    }
+
+
+    .thumbnail-tema4 {
+        padding-bottom: 50px;
+    }
+
+
+    #page-container {
+        position: relative;
+        height: 3700px;
+    }
+}
+
 /*mobile----------------------------------------*/
 @media (max-width: 420px) {
+
+
+
+
+    .projektnavn {
+        font-size: 31px;
+    }
+
+    .projektinfo {
+        margin-top: 71px;
+    }
 
     header {
         padding-left: 10px;
@@ -478,12 +623,14 @@ footer p {
     .main {
         margin-left: 10px;
         margin-right: 10px;
+        margin-top: 55px
     }
 
     .landingpageh1 {
         font-size: 50px;
         line-height: 57px;
         width: 345px;
+        margin-bottom: 65px;
 
     }
 
@@ -495,7 +642,7 @@ footer p {
     }
 
     .landingpagecontainer {
-        top: 118vw;
+        top: 123vw;
     }
 
     .landingpagesprite {
@@ -503,8 +650,8 @@ footer p {
     }
 
     .landingpageknap {
-        margin-bottom: 184px;
-        margin-top: 31px;
+        margin-bottom: 171px;
+        margin-top: 45px;
     }
 
     .selveknap {
@@ -534,6 +681,6 @@ footer p {
 
     #page-container {
         position: relative;
-        height: 5050px;
+        height: 5195px;
     }
 }

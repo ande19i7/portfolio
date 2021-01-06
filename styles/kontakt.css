@@ -72,7 +72,7 @@ body {
     margin-left: 0px;
 }
 
-.kontakth2_form {
+.kontakth2_form_pc {
 
     font-size: 35px;
     font-weight: 300;
@@ -191,7 +191,7 @@ body {
 
 #page-container {
     position: relative;
-    height: 3750px;
+    height: 1200px;
 }
 
 #content-wrap {
@@ -288,7 +288,8 @@ textarea {
 }
 
 .w-button {
-    padding: 9px 0px;border: 0;
+    padding: 9px 0px;
+    border: 0;
     line-height: inherit;
     cursor: pointer;
     border-radius: 0;
@@ -298,3 +299,143 @@ textarea {
     color: #9A00FF;
 }
 
+.kontakth2_form_ipad {
+    display: none;
+}
+
+
+/*laptop -----------------------------------------------------*/
+@media (max-width: 1550px) {
+
+    #page-container {
+        position: relative;
+        height: 1850px;
+    }
+
+    .kontakth2 {
+        font-size: 33px;
+    }
+
+    .kontakth2_form_pc {
+        font-size: 33px;
+        margin-left: 200px;
+
+    }
+
+    #page-container {
+        position: relative;
+        height: 1350px;
+    }
+
+}
+
+/*iPad -----------------------------------------------------*/
+@media (max-width: 800px) {
+
+    #page-container {
+        position: relative;
+        height: 2100px;
+    }
+
+    .kontakth2_form_pc {
+        display: none;
+    }
+
+    .sectionwrapper_top {
+        grid-template-columns: 1fr;
+    }
+
+    .sectionwrapper {
+        grid-template-columns: 1fr;
+        margin-top: 0px;
+    }
+
+    #burgersection li a {
+
+        color: #000;
+    }
+
+
+    #burgersection {
+
+        background: #fff;
+
+    }
+
+    .kontakth1 {
+        margin-top: 57px;
+    }
+
+    .kontakth2 {
+        font-size: 32px;
+    }
+
+    .kontakth3 {
+        font-size: 33px;
+        margin-bottom: 0px;
+    }
+
+    .kontakth2_form {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 30px;
+    }
+
+    .kontakth2_form_ipad {
+        display: block;
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 60px;
+        margin-bottom: 0px;
+        margin-top: 60px;
+
+    }
+
+    .sectionwrapper .col {
+        margin-bottom: 27px;
+    }
+
+}
+
+/*mobile----------------------------------------*/
+@media (max-width: 420px) {
+
+    #page-container {
+        position: relative;
+        height: 2100px;
+    }
+
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .kontakth1 {
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .kontakth2 {
+        line-height: 40px;
+        font-size: 23px;
+    }
+
+    .sectionwrapper .col a li {
+        font-size: 22px;
+    }
+
+    .sectionwrapper .col li {
+        font-size: 22px;
+    }
+
+    .kontakth2_form_ipad {
+        font-size: 29px;
+        line-height: 48px;
+    }
+}

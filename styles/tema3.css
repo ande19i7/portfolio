@@ -56,19 +56,19 @@ body {
     margin-top: -15px;
 }
 
-.tema3_1 {
+#tema3_1 {
     margin-top: 50px;
     width: 100%;
     display: block;
 }
 
-.tema3_2 {
+#tema3_2 {
     margin-top: 50px;
     width: 100%;
     display: block;
 }
 
-.tema3_3 {
+#tema3_3 {
     margin-top: 50px;
     width: 100%;
     display: block;
@@ -144,3 +144,88 @@ footer p {
     margin-left: 10px;
     font-size: 20px;
 }
+
+/*laptop -----------------------------------------------------*/
+@media (max-width: 1550px) {
+
+
+    .flex .logo .site-tag {
+        display: none;
+    }
+
+
+    .site-nav a {
+        width: 126px;
+    }
+
+    .temaprojektdeskription {
+        margin-left: 222px;
+    }
+
+}
+
+/*iPad -----------------------------------------------------*/
+@media (max-width: 800px) {
+
+    .flex .logo .site-tag {
+        display: inline-block;
+    }
+
+    .temah1 {
+        width: 500px;
+    }
+
+    .tema-main {
+        width: 92%;
+        margin-top: 60px;
+    }
+
+    .wide-image {
+        width: 100%;
+    }
+
+    .portfolio-wrapper .wide-image .portfolio-image:hover {
+        transform: scale(1.02);
+    }
+
+    .temaprojektdeskription {
+        margin-left: 0px;
+        font-size: 21px;
+        line-height: 52px;
+    }
+
+    .temaprojektbeskrivelse {
+        margin-left: 0px;
+    }
+
+    .separatortema {
+        width: 100%;
+    }
+
+}
+
+/*mobile----------------------------------------*/
+@media (max-width: 420px) {
+
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tema-main {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 95%;
+    }
+
+    .temah1 {
+        width: 345px;
+        font-size: 45px;
+        line-height: 58px;
+    }
+
+    .temah2 {
+        width: 345px;
+        font-size: 35px;
+        line-height: 37px;
+    }
