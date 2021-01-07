@@ -41,6 +41,16 @@
     pointer-events: none;
 }
 
+.landingpagecontainer_ipad {
+    display: none;
+    position: absolute;
+    top: -5vw;
+    left: -1.1vw;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+}
+
 .landingpagesprite {
     position: relative;
     min-width: 100vw;
@@ -50,7 +60,7 @@
 #landingpageboldcontainer {
     position: absolute;
     top: 18vw;
-    left: 44vw;
+    left: 45vw;
     width: 12vw;
     height: 12vw;
     cursor: pointer;
@@ -59,8 +69,8 @@
 
 #landingpageboldsprite {
     position: relative;
-    width: 12vw;
-    height: 12vw;
+    width: 10vw;
+    height: 10vw;
     background-image: url(../SVG/ballanimation.svg);
     top: 0;
     left: 0;
@@ -76,7 +86,7 @@
 
 .boldforsvind {
     animation-name: boldforsvind_kf;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: 1;
     animation-fill-mode: both;
 
@@ -86,20 +96,27 @@
 
 @keyframes boldforsvind_kf {
     0% {
-        transform: scale(1);
         filter: opacity(1);
+        transform: translatex(0vw) translatey(0vw) scale(1);
+
+    }
+
+    80% {
+
+
+        filter: opacity(0.5);
+
     }
 
     100% {
-
-        transform: scale(0);
         filter: opacity(0);
+        transform: translatex(-44.34vw) translatey(-21.805vw)scale(0.02);
     }
 }
 
 .glow {
     animation-name: glow_kf;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-fill-mode: both;
@@ -108,12 +125,12 @@
 
 @keyframes glow_kf {
     0% {
-        filter: drop-shadow(1px 1px 8px #9A00FF);
+        filter: drop-shadow(2px 2px 9px #9A00FF);
         transform: scale(1);
     }
 
     100% {
-        filter: drop-shadow(1px 1px 30px #9A00FF);
+        filter: drop-shadow(2px 2px 35px #9A00FF);
         transform: scale(1.05);
     }
 }
@@ -448,6 +465,26 @@ footer p {
 /*laptop -----------------------------------------------------*/
 @media (max-width: 1550px) {
 
+    @keyframes boldforsvind_kf {
+        0% {
+            filter: opacity(1);
+            transform: translatex(0vw) translatey(0vw) scale(1);
+
+        }
+
+        80% {
+
+
+            filter: opacity(0.5);
+
+        }
+
+        100% {
+            transform: translatex(-42.75vw) translatey(-21.2vw)scale(0.02);
+            filter: opacity(0);
+        }
+    }
+
     .main {
         margin-top: 55px;
     }
@@ -478,11 +515,20 @@ footer p {
 }
 
 
-/*iPad - landscape */
+/*iPad - landscape ------------------------------------------*/
 @media (max-width: 1050px) {
-    .landingpagecontainer {
+    .landingpagecontainer_ipad {
+        display: block;
         top: 9vw;
         left: -0.9vw;
+    }
+
+    .landingpagecontainer {
+        display: none;
+    }
+
+    #landingpageboldcontainer {
+        display: none;
     }
 
 
@@ -592,7 +638,7 @@ footer p {
         margin-top: 65px;
     }
 
-    .landingpagecontainer {
+    .landingpagecontainer_ipad {
         top: 46vw;
         left: -1.1vw;
     }
@@ -648,7 +694,7 @@ footer p {
     }
 
 
-    .landingpagecontainer {
+    .landingpagecontainer_ipad {
         top: 43vw;
     }
 
@@ -713,7 +759,7 @@ footer p {
 
     }
 
-    .landingpagecontainer {
+    .landingpagecontainer_ipad {
         top: 123vw;
     }
 
