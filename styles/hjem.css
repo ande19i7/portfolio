@@ -47,6 +47,78 @@
     height: 1000px;
 }
 
+#landingpageboldcontainer {
+    position: absolute;
+    top: 18vw;
+    left: 44vw;
+    width: 12vw;
+    height: 12vw;
+    cursor: pointer;
+    z-index: 200;
+}
+
+#landingpageboldsprite {
+    position: relative;
+    width: 12vw;
+    height: 12vw;
+    background-image: url(../SVG/ballanimation.svg);
+    top: 0;
+    left: 0;
+
+    background-size: 100%;
+
+}
+
+#landingpageboldcontainer:hover {
+    filter: brightness(1.2);
+}
+
+
+.boldforsvind {
+    animation-name: boldforsvind_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+
+
+
+}
+
+@keyframes boldforsvind_kf {
+    0% {
+        transform: scale(1);
+        filter: opacity(1);
+    }
+
+    100% {
+
+        transform: scale(0);
+        filter: opacity(0);
+    }
+}
+
+.glow {
+    animation-name: glow_kf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+
+@keyframes glow_kf {
+    0% {
+        filter: drop-shadow(1px 1px 8px #9A00FF);
+        transform: scale(1);
+    }
+
+    100% {
+        filter: drop-shadow(1px 1px 30px #9A00FF);
+        transform: scale(1.05);
+    }
+}
+
+
 .landingpageknap {
     margin-top: 100px;
     margin-bottom: 100px;

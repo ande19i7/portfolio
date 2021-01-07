@@ -4,7 +4,11 @@ function sidenVises() {
     console.log("sidenVises");
 
     document.querySelector("#burgerknap").addEventListener("click", toggleMenu);
+
+
 }
+
+document.querySelector("#landingpageboldcontainer").addEventListener("click", boldForsvind);
 
 function toggleMenu() {
     console.log("toggleMenu");
@@ -18,4 +22,11 @@ function toggleMenu() {
     } else {
         document.querySelector("#burgerknap").textContent = "✖";
     }
+}
+
+
+function boldForsvind() {
+    console.log("boldForsvind");
+
+    document.querySelector("#landingpageboldcontainer").classList.add("boldforsvind");
 }
