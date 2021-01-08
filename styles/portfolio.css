@@ -257,7 +257,7 @@ footer p {
     }
 
     .thumbnail-tema4_2 {
-        padding-bottom: 111px;
+        padding-bottom: 81px;
     }
 
     .thumbnail-tema5 {
@@ -267,6 +267,10 @@ footer p {
     #page-container {
         position: relative;
         height: 2900px;
+    }
+
+    .thumb-img {
+        width: 100%;
     }
 
 
@@ -301,7 +305,25 @@ footer p {
     }
 
 
+    .thumbnail-tema3 {
+        padding-bottom: 0px;
+    }
 
+    .thumbnail-tema3_3 {
+        padding-bottom: 0px;
+    }
+
+    .thumbnail-tema4_2 {
+        padding-bottom: 0px;
+    }
+
+    .thumbnail-tema5 {
+        padding-bottom: 0px;
+    }
+
+    .thumb-img {
+        width: 100%;
+    }
 
 
 
