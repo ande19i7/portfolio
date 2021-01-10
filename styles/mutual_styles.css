@@ -141,6 +141,17 @@ a {
     display: none;
 }
 
+.temaprojektbeskrivelse {
+    font-size: 20px;
+    margin-left: 279px;
+    margin-right: 277px;
+    line-height: 38px;
+}
+
+.portfolio-wrapper .wide-image .portfolio-image:hover {
+    transform: scale(1.01);
+}
+
 
 /*laptop -----------------------------------------------------*/
 @media (max-width: 1550px) {
