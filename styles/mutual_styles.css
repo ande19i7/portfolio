@@ -152,6 +152,12 @@ a {
     transform: scale(1.01);
 }
 
+.temaprojektdeskription {
+    font-size: 20px;
+    margin-left: 279px;
+    line-height: 60px;
+}
+
 
 /*laptop -----------------------------------------------------*/
 @media (max-width: 1550px) {
