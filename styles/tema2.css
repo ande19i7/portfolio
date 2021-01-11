@@ -11,15 +11,16 @@
     height: 2px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 60px;
     background-color: #000;
 }
 
-.separatortema {
-    width: 70%;
+.separatoroverskrift {
+    width: 100%;
     height: 2px;
     margin-right: auto;
-    margin-top: 30px;
     margin-left: auto;
+
     background-color: #000;
 }
 
@@ -28,9 +29,6 @@
 }
 
 
-header {
-    background-color: #c7ffe2;
-}
 
 body {
     background-color: #c7ffe2;
@@ -112,7 +110,7 @@ body {
 
 #page-container {
     position: relative;
-    height: 5750px;
+    height: 5390px;
 }
 
 #content-wrap {
@@ -187,6 +185,9 @@ iframe {
 
 }
 
+.storskaerm {
+    width: 100%;
+}
 
 
 
@@ -207,6 +208,23 @@ iframe {
         margin-left: 222px;
     }
 
+    .temaprojektbeskrivelse {
+        margin-left: 222px;
+        margin-right: 222px;
+    }
+
+    iframe {
+        height: 450px;
+    }
+
+    .layoutimg {
+        height: 450px;
+    }
+
+    #page-container {
+
+        height: 5150px;
+    }
 
 
 }
@@ -243,16 +261,30 @@ iframe {
 
     .temaprojektbeskrivelse {
         margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .temaprojektbeskrivelse h4 {
+        font-size: 19px;
     }
 
     .separatortema {
         width: 100%;
     }
 
+    #page-container {
+
+        height: 5000px;
+    }
+
 }
 
 /*mobile----------------------------------------*/
 @media (max-width: 420px) {
+
+    .flex .logo .site-tag {
+        display: none;
+    }
 
     header {
         padding-left: 10px;
@@ -276,3 +308,17 @@ iframe {
         font-size: 35px;
         line-height: 37px;
     }
+
+    .pdf_2col {
+        grid-template-columns: 1fr;
+    }
+
+    .mobilskaerm {
+        width: 100%;
+    }
+
+    #page-container {
+
+        height: 6570px;
+    }
+}
