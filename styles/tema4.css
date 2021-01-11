@@ -172,6 +172,10 @@ iframe {
 
 }
 
+.undermenu-tema {
+    bottom: 50px;
+}
+
 /*laptop -----------------------------------------------------*/
 @media (max-width: 1550px) {
 
