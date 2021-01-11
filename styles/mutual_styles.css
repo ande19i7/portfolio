@@ -4,6 +4,7 @@
 
 html {
     display: block;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -158,6 +159,39 @@ a {
     line-height: 60px;
 }
 
+.scroll-up-arrow {
+    position: fixed;
+
+    font-size: 50px;
+    bottom: 40px;
+    right: 30px;
+    color: #000;
+}
+
+
+.scroll-up-arrow:hover {
+    color: #9A00FF;
+}
+
+.undermenu-tema {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 35px;
+    line-height: 100px;
+    bottom: 150px;
+    right: 30px;
+}
+
+.undermenu-tema a {
+    color: #000;
+    text-align: right;
+}
+
+.undermenu-tema a:hover {
+    color: #9A00FF;
+}
 
 /*laptop -----------------------------------------------------*/
 @media (max-width: 1550px) {
