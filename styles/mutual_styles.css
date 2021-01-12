@@ -199,6 +199,12 @@ a {
         margin-left: 13px;
         margin-right: -24px;
     }
+
+    .temaprojektbeskrivelse {
+        margin-left: 222px;
+        margin-right: 222px;
+    }
+
 }
 
 
@@ -274,11 +280,21 @@ a {
 
 }
 
-}
+
 
 /*iPad---------------------------------*/
 
-@media (max-width: 800px) {}
+@media (max-width: 800px) {
+    .undermenu-tema a {
+
+        color: #9A00FF;
+    }
+
+    .scroll-up-arrow {
+
+        color: #9A00FF;
+    }
+}
 
 /*mobile landscape----------------------------------------*/
 @media (max-width: 700px) {
@@ -308,6 +324,23 @@ a {
 
     #page-container footer p {
         font-size: 16px;
+    }
+
+    .undermenu-tema {
+        bottom: 136px;
+        right: 8px;
+        line-height: 53px;
+    }
+
+
+    .undermenu-tema a {
+        font-size: 18px;
+        color: #9A00FF;
+    }
+
+    .scroll-up-arrow {
+        right: 8px;
+        color: #9A00FF;
     }
 
 }

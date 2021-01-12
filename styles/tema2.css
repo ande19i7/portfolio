@@ -24,6 +24,15 @@
     background-color: #000;
 }
 
+.separatortema {
+    width: 70%;
+    height: 2px;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    background-color: #000;
+}
+
 .tema-nav .navactive {
     color: #9A00FF;
 }

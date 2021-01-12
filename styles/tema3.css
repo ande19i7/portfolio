@@ -215,6 +215,20 @@ iframe {
         margin-left: 222px;
     }
 
+    iframe {
+
+        height: 450px;
+
+    }
+
+    .billeder-link img {
+        height: 450px;
+    }
+
+    #page-container {
+        height: 9500px;
+    }
+
 }
 
 /*iPad -----------------------------------------------------*/
@@ -249,16 +263,30 @@ iframe {
 
     .temaprojektbeskrivelse {
         margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .temaprojektbeskrivelse h4 {
+        font-size: 17px;
     }
 
     .separatortema {
         width: 100%;
     }
 
+    #page-container {
+        height: 9350px;
+    }
+
+
 }
 
 /*mobile----------------------------------------*/
 @media (max-width: 420px) {
+
+    .flex .logo .site-tag {
+        display: none;
+    }
 
     header {
         padding-left: 10px;
@@ -282,3 +310,22 @@ iframe {
         font-size: 35px;
         line-height: 37px;
     }
+
+    .pdf_2col {
+        grid-template-columns: 1fr;
+    }
+
+    .pdf_3col {
+        grid-template-columns: 1fr;
+    }
+
+    #page-container {
+        height: 14150px;
+    }
+
+    .billeder-link img {
+        height: 325px;
+    }
+
+
+}
