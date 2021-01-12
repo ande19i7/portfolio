@@ -117,7 +117,7 @@ a {
     margin-right: 22px;
     margin-left: 22px;
     background-color: #000;
-    position: center;
+
 }
 
 .vandretseparator {
@@ -134,7 +134,6 @@ a {
     margin-right: 22px;
     margin-left: 22px;
     background-color: #000;
-    position: center;
 }
 
 
@@ -254,7 +253,6 @@ a {
     #burgersection {
         position: relative;
         transition: transform 0.3s;
-        transform-style: top left;
         background: #000;
         height: 480px;
         line-height: 100px;

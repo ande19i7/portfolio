@@ -39,12 +39,9 @@ body {
 }
 
 .separator {
-    width: 70px;
-    height: 1px;
-    margin-right: 22px;
-    margin-left: 22px;
+
     background-color: #fff;
-    position: center;
+
 }
 
 .underoverskrift {
@@ -129,12 +126,9 @@ body {
 
 }
 
-.col a li {
-    color: #fff;
 
-}
 
-.col a li:hover {
+.col a:hover {
     color: #9A00FF;
 }
 
@@ -303,6 +297,14 @@ textarea {
     display: none;
 }
 
+.col ul {
+    margin-left: -36px;
+}
+
+.col a {
+    color: #fff;
+    line-height: 60px;
+}
 
 /*laptop -----------------------------------------------------*/
 @media (max-width: 1550px) {

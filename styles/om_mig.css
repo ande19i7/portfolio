@@ -44,7 +44,7 @@ body {
     margin-right: 22px;
     margin-left: 22px;
     background-color: #fff;
-    position: center;
+
 }
 
 .underoverskrift {
@@ -142,6 +142,15 @@ body {
 .sectionwrapper_inside {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    margin-top: -20px;
+}
+
+.sectionwrapper_inside .col_liste {
+    margin-left: -12px;
+}
+
+.col_liste_sprog {
+    margin-left: -12px;
 }
 
 .sectionwrapper_inside2 {
@@ -165,6 +174,9 @@ body {
 .col_cv {
     font-size: 25px;
     list-style-type: none;
+    margin-left: -38px;
+    margin-top: 0px;
+    line-height: 35px;
 }
 
 .col_cv li {
@@ -180,7 +192,7 @@ body {
 
 #page-container {
     position: relative;
-    height: 2000px;
+    height: 2100px;
 }
 
 #content-wrap {
@@ -281,8 +293,13 @@ footer p {
 /*iPad -----------------------------------------------------*/
 @media (max-width: 800px) {
 
+    .sectionwrapper_inside {
+        margin-top: 0px;
+    }
+
     .col_ipad {
         display: block;
+        margin-top: -10px;
     }
 
 
@@ -315,9 +332,19 @@ footer p {
         grid-template-columns: 1fr 1fr;
     }
 
+    .sectionwrapper_3punkt_ipad .col .sectionwrapper_inside .col_liste {
+        margin-left: -36px;
+    }
+
+    .sectionwrapper_3punkt_ipad .col .col_liste_sprog {
+        margin-left: -36px;
+    }
+
+
+
     #page-container {
         position: relative;
-        height: 2000px;
+        height: 2100px;
     }
 
     .om_migh1 {
@@ -389,7 +416,7 @@ footer p {
 
     .col_ipad .col_liste_profil {
 
-        margin-left: 18px;
+        margin-left: -21px;
     }
 
     .col_ipad .om_migh3_profil {
@@ -450,8 +477,16 @@ footer p {
         display: block;
     }
 
+    .mobileversion_1 .col_liste {
+        margin-left: -20px;
+    }
+
     .mobileversion_2 {
         display: block;
+    }
+
+    .mobileversion_2 .col_liste_2 {
+        margin-left: -36px;
     }
 
     header {
