@@ -229,6 +229,8 @@ a {
         font-size: 3rem;
         padding: 0;
         text-align: right;
+        width: 100%;
+        height: 10px;
     }
 
     #burgerknap {
@@ -254,19 +256,26 @@ a {
         transition: transform 0.3s;
         transform-style: top left;
         background: #000;
-        margin-top: 1.5rem;
         height: 480px;
         line-height: 100px;
         z-index: 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #burgersection ul {
+        text-align: left;
+
     }
 
 
 
     #burgersection li {
         margin-top: -0.75rem;
-        margin-right: 2rem;
-        text-align: center;
-        padding: 10px;
+        margin-right: 0;
+        text-align: left;
+        margin-left: -5px;
+
     }
 
     #burgersection li a {
@@ -275,6 +284,11 @@ a {
         text-align: center;
         padding: 0px;
         color: #fff;
+    }
+
+    #burgersection ul li {
+        text-align: center;
+
     }
 
 
@@ -294,6 +308,12 @@ a {
 
         color: #9A00FF;
     }
+
+    #burgersection ul li {
+        text-align: center;
+
+    }
+
 }
 
 /*mobile landscape----------------------------------------*/
@@ -301,7 +321,11 @@ a {
     #burgersection {
         height: 279px;
         width: 615px;
-        line-height: 53px;
+        line-height: 67px;
+    }
+
+    #burgersection ul {
+        margin-top: 10px;
     }
 }
 
@@ -313,10 +337,12 @@ a {
     }
 
     #burgersection {
-        height: 480px;
+        height: 420px;
         width: 100%;
         line-height: 100px;
     }
+
+
 
     #burgersection li {
         margin-right: 1rem;
